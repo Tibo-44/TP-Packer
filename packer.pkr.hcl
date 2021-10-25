@@ -10,7 +10,8 @@ http_directory = "./ks"
 ssh_username = "root" 
 ssh_password = "%Serveur44" 
 ssh_timeout = "20m" 
-vm_name = "tdhtest" memory = "2048"
+vm_name = "tdhtest"
+memory = "2048"
 net_device = "virtio-net"
 disk_interface = "virtio"
 boot_wait = "10s"
@@ -20,5 +21,6 @@ display = "none"
 headless = "true"
 }
 
-build { sources = ["source.qemu.example"]
+build { 
+sources = ["source.qemu.example"]
 }
