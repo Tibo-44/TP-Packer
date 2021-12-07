@@ -25,7 +25,7 @@ build {
   sources = ["source.qemu.example"]
 
   provisioner "shell" {      
-    script = "script-vm.sh"
+    script = "launch-vm.sh"
     }
 }
 
