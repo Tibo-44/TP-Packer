@@ -50,4 +50,4 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJXNu2wW1ssMqlzRd3q/YodypM77UNFz7tF6h2v+hYYZ
 " >> authorized_keys
 
 echo "FIN SCRIPT LAUNCH-VM"
-sleep 200
+sleep 100
