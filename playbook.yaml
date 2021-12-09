@@ -6,17 +6,4 @@
       package:
         name: git
         state: latest 
-    - name : Install golang
-      package:
-	name: golang
-	state: latest
-    
-    - git:
-      repo: "https://github.com/BastienBalaud/golang-myip.git"
-      dest: "/root/golang-myip"
-    
-    - name: déplacement répertoire golang-myip
-      command: cd /tmp/golang-myip
 
-    - name : executer golang-myip
-      command: go run server.go
